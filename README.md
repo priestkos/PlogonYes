@@ -2,6 +2,10 @@
 
 This repository is the home for my Dalamud plugins for FFXIV.
 
+## Install
+
+In game open /xlsettings, Experimental, Custom Plugin Repositories, paste `https://raw.githubusercontent.com/priestkos/PlogonYes/main/pluginmaster.json`, tick the box and Save.
+
 - [Aetherpath](https://github.com/priestkos/Aetherpath) — Prices every way to get where you're going in FFXIV, and shows where your free transfer and favored destinations earn the most gil.
 - [Babel14](https://github.com/priestkos/Babel14) — Two-way in-game chat translation for FFXIV, powered by any OpenAI-compatible LLM API.
 - [Calc14](https://github.com/priestkos/Calc14) — A keypad calculator that opens over FFXIV, with a 100-entry history and inline expression evaluation from chat.
