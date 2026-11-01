@@ -28,7 +28,7 @@
     "Author": "PriestKos",
     "Name": "Babel14",
     "InternalName": "Babel14",
-    "AssemblyVersion": "0.1.0.2",
+    "AssemblyVersion": "0.1.0.4",
     "Punchline": "Two-way chat translation powered by an LLM.",
     "Description": "Translate incoming and outgoing chat between languages using an LLM API. Toggle with /babel.",
     "RepoUrl": "https://github.com/priestkos/Babel14",
@@ -42,10 +42,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793516492,
-    "DownloadLinkInstall": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.2/latest.zip"
+    "LastUpdate": 1793526768,
+    "DownloadLinkInstall": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.4/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.4/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.4/latest.zip"
   },
   {
     "Author": "PriestKos",
@@ -73,7 +73,7 @@
     "Author": "PriestKos",
     "Name": "FrontlineAdvisor",
     "InternalName": "FrontlineAdvisor",
-    "AssemblyVersion": "1.0.0.2",
+    "AssemblyVersion": "1.0.0.3",
     "Punchline": "Who is winning, who to hit, who is about to matter.",
     "Description": "Reads who is leading a Frontline match, says which Grand Company to focus and which is about to become dangerous, and calls out every change of leader.",
     "RepoUrl": "https://github.com/priestkos/FrontlineAdvisor",
@@ -87,10 +87,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793517894,
-    "DownloadLinkInstall": "https://github.com/priestkos/FrontlineAdvisor/releases/download/v1.0.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/FrontlineAdvisor/releases/download/v1.0.0.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/FrontlineAdvisor/releases/download/v1.0.0.2/latest.zip"
+    "LastUpdate": 1793518756,
+    "DownloadLinkInstall": "https://github.com/priestkos/FrontlineAdvisor/releases/download/v1.0.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/FrontlineAdvisor/releases/download/v1.0.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/FrontlineAdvisor/releases/download/v1.0.0.3/latest.zip"
   },
   {
     "Author": "PriestKos",
