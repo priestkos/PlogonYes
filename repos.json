@@ -8,5 +8,6 @@
   "NameplateOffset",
   "VenueLedger",
   "WorldClock14",
-  "KeyboundAssist"
+  "KeyboundAssist",
+  "KeyLock"
 ]
