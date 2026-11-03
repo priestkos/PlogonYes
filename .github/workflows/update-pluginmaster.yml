@@ -15,6 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,6 +26,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit pluginmaster.json
+        # The script exits non-zero after writing when some repos failed; still publish the others.
+        if: ${{ !cancelled() }}
         run: |
           if git diff --quiet -- pluginmaster.json; then
             echo "pluginmaster.json unchanged"
