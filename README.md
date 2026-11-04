@@ -2,6 +2,8 @@
 
 This repository is the home for my Dalamud plugins for FFXIV.
 
+> **No support will be provided. This software is to be used as is, without warranty of any kind.**
+
 ## Install
 
 In game open /xlsettings, Experimental, Custom Plugin Repositories, paste `https://raw.githubusercontent.com/priestkos/PlogonYes/main/pluginmaster.json`, tick the box and Save.
