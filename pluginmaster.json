@@ -28,7 +28,7 @@
     "Author": "PriestKos",
     "Name": "Babel14",
     "InternalName": "Babel14",
-    "AssemblyVersion": "0.1.0.9",
+    "AssemblyVersion": "0.1.0.10",
     "Punchline": "Two-way chat translation powered by an LLM.",
     "Description": "Translate incoming and outgoing chat between languages using an LLM API. Toggle with /babel.",
     "RepoUrl": "https://github.com/priestkos/Babel14",
@@ -42,10 +42,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793695764,
-    "DownloadLinkInstall": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.9/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.9/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.9/latest.zip"
+    "LastUpdate": 1793903143,
+    "DownloadLinkInstall": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.10/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.10/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.10/latest.zip"
   },
   {
     "Author": "PriestKos",
