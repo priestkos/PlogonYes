@@ -3,7 +3,7 @@
     "Author": "PriestKos",
     "Name": "Aetherpath",
     "InternalName": "Aetherpath",
-    "AssemblyVersion": "0.1.0.2",
+    "AssemblyVersion": "0.1.0.3",
     "Punchline": "Prices every way to get where you're going - and tells you where your free and favored slots earn the most gil.",
     "Description": "Reads the game's own live teleport prices, then ranks every travel option to your destination: direct teleport, free destination, favored slots, Return, aetheryte tickets, estate teleports and walk-in legs. Includes a slot optimizer that shows what your free transfer and three favored destinations would be worth if you moved them. Recommends only - it never executes a teleport or changes your settings.",
     "RepoUrl": "https://github.com/priestkos/Aetherpath",
@@ -19,10 +19,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793695773,
-    "DownloadLinkInstall": "https://github.com/priestkos/Aetherpath/releases/download/v0.1.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/Aetherpath/releases/download/v0.1.0.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/Aetherpath/releases/download/v0.1.0.2/latest.zip"
+    "LastUpdate": 1793900251,
+    "DownloadLinkInstall": "https://github.com/priestkos/Aetherpath/releases/download/v0.1.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/Aetherpath/releases/download/v0.1.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/Aetherpath/releases/download/v0.1.0.3/latest.zip"
   },
   {
     "Author": "PriestKos",
