@@ -193,7 +193,7 @@
     "Author": "PriestKos",
     "Name": "Nameplate Offset",
     "InternalName": "NameplateOffset",
-    "AssemblyVersion": "1.0.0.2",
+    "AssemblyVersion": "1.0.0.3",
     "Punchline": "Raise or lower the nameplate above a character's head.",
     "Description": "Moves the in-world nameplate vertically by writing the game object's NameplateOffsetTarget field.\r\nSlider in yalms (1 yalm = 1 metre). Your own character, other players and NPCs/objects can be offset independently.",
     "RepoUrl": "https://github.com/priestkos/NameplateOffset",
@@ -207,10 +207,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793695802,
-    "DownloadLinkInstall": "https://github.com/priestkos/NameplateOffset/releases/download/v1.0.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/NameplateOffset/releases/download/v1.0.0.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/NameplateOffset/releases/download/v1.0.0.2/latest.zip"
+    "LastUpdate": 1793948894,
+    "DownloadLinkInstall": "https://github.com/priestkos/NameplateOffset/releases/download/v1.0.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/NameplateOffset/releases/download/v1.0.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/NameplateOffset/releases/download/v1.0.0.3/latest.zip"
   },
   {
     "Author": "PriestKos",
