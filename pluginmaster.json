@@ -95,6 +95,30 @@
   },
   {
     "Author": "PriestKos",
+    "Name": "FF14 Mod Manager Bridge",
+    "InternalName": "FF14ModManagerBridge",
+    "AssemblyVersion": "1.0.0.0",
+    "Punchline": "Lets the FF14 Mod Manager desktop app see your character and apply designs and mods.",
+    "Description": "Companion to the FF14 Mod Manager Windows app. Answers over a local, current-user-only named pipe: who you are, which Penumbra collection is on you, and applies Glamourer designs or toggles Penumbra mods on request.",
+    "RepoUrl": "https://github.com/priestkos/FF14ModManagerBridge",
+    "Tags": [
+      "penumbra",
+      "glamourer",
+      "mods",
+      "companion"
+    ],
+    "DalamudApiLevel": 15,
+    "IconUrl": "https://raw.githubusercontent.com/priestkos/FF14ModManagerBridge/main/images/icon.png",
+    "ApplicableVersion": "any",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1794124508,
+    "DownloadLinkInstall": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.0/latest.zip"
+  },
+  {
+    "Author": "PriestKos",
     "Name": "FrontlineAdvisor",
     "InternalName": "FrontlineAdvisor",
     "AssemblyVersion": "1.0.0.4",
