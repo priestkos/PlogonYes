@@ -290,6 +290,31 @@
   },
   {
     "Author": "PriestKos",
+    "Name": "Wardrobe14",
+    "InternalName": "Wardrobe14",
+    "AssemblyVersion": "0.1.0.0",
+    "Punchline": "A cross-collection view of your Penumbra mods; bulk toggles and Glamourer looks to follow.",
+    "Description": "Shows every Penumbra mod against your own collection and any others you pin, with search and folder filters. Early build: it only reads from Penumbra. Bulk toggles, mod sets, undo and one-click Glamourer looks are planned.",
+    "RepoUrl": "https://github.com/priestkos/Wardrobe14",
+    "Tags": [
+      "penumbra",
+      "glamourer",
+      "mods",
+      "utility",
+      "ui"
+    ],
+    "DalamudApiLevel": 15,
+    "IconUrl": "https://raw.githubusercontent.com/priestkos/Wardrobe14/main/images/icon.png",
+    "ApplicableVersion": "any",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1794123273,
+    "DownloadLinkInstall": "https://github.com/priestkos/Wardrobe14/releases/download/v0.1.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/Wardrobe14/releases/download/v0.1.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/Wardrobe14/releases/download/v0.1.0.0/latest.zip"
+  },
+  {
+    "Author": "PriestKos",
     "Name": "WorldClock14",
     "InternalName": "WorldClock14",
     "AssemblyVersion": "1.0.0.2",
