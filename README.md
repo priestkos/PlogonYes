@@ -21,3 +21,4 @@ In game open /xlsettings, Experimental, Custom Plugin Repositories, paste `https
 - [KeyLock](https://github.com/priestkos/KeyLock) — Moves movement off WASD and jump off Space on demand, and puts them back.
 - [KeyboundAssist](https://github.com/priestkos/KeyboundAssist) — Fills in the enemy prompts of the Keybound Brawler duty; you press Enter to submit each word.
 - [StripDeathroll14](https://github.com/priestkos/StripDeathroll14) — Strip Deathroll host helper: turn order, roll calls, wrong-roll alerts, lives and round history.
+- [Wardrobe14](https://github.com/priestkos/Wardrobe14) — A cross-collection view of your Penumbra mods; bulk toggles and Glamourer looks to follow.
