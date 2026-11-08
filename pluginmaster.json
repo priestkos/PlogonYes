@@ -238,6 +238,31 @@
   },
   {
     "Author": "PriestKos",
+    "Name": "StripDeathroll14",
+    "InternalName": "StripDeathroll14",
+    "AssemblyVersion": "0.1.0.0",
+    "Punchline": "Strip Deathroll host helper: turn order, roll calls, wrong-roll alerts, lives and round history.",
+    "Description": "Hosts Strip Deathroll at a venue. Choose Private (say) or Public (party/alliance), build the player list from your party or by name, and it reads everyone's /random or /dice from chat: opening rolls set the order, each player is called to roll the previous number, a 1, 69 or 666 wins the round, and the winner's pick loses one of three pieces. It alerts on a wrong number or an out-of-turn roll, keeps a round history, and posts your rules and ad texts. Lines are posted only when you press Post unless you turn on auto-post, never more than once every 2 seconds.",
+    "RepoUrl": "https://github.com/priestkos/StripDeathroll14",
+    "Tags": [
+      "deathroll",
+      "minigame",
+      "random",
+      "venue",
+      "utility"
+    ],
+    "DalamudApiLevel": 15,
+    "IconUrl": "https://raw.githubusercontent.com/priestkos/StripDeathroll14/main/images/icon.png",
+    "ApplicableVersion": "any",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1794123152,
+    "DownloadLinkInstall": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.0/latest.zip"
+  },
+  {
+    "Author": "PriestKos",
     "Name": "VenueLedger",
     "InternalName": "VenueLedger",
     "AssemblyVersion": "0.1.0.2",
