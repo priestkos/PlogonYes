@@ -168,7 +168,7 @@
     "Author": "PriestKos",
     "Name": "HuntAlerts",
     "InternalName": "HuntAlerts",
-    "AssemblyVersion": "1.4.1.13",
+    "AssemblyVersion": "1.4.1.14",
     "Punchline": "Notifies you when hunt trains are starting soon\nSupports NA/EU/OCE/JP",
     "Description": "Notifies you when hunt trains are starting soon\nSupports NA/EU/OCE/JP\n\nPrivate-use fork by PriestKos. Original plugin and idea by Asuna (https://projects.gamba.pro/Asuna/huntalerts) - do not use this fork, use https://puni.sh/api/repository/asuna instead.",
     "RepoUrl": "https://projects.gamba.pro/Asuna/HuntAlerts",
@@ -183,10 +183,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1793695827,
-    "DownloadLinkInstall": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.13/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.13/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.13/latest.zip"
+    "LastUpdate": 1794314931,
+    "DownloadLinkInstall": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.14/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.14/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.14/latest.zip"
   },
   {
     "Author": "PriestKos",
