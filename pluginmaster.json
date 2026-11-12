@@ -217,7 +217,7 @@
     "Author": "PriestKos",
     "Name": "KeyboundAssist",
     "InternalName": "KeyboundAssist",
-    "AssemblyVersion": "0.1.0.15",
+    "AssemblyVersion": "0.1.0.16",
     "Punchline": "Fills the Keybound Brawler prompt for you; you press Enter.",
     "Description": "For research use only. Reads the enemy prompts in the Keybound Brawler duty and writes the shortest one into the activity's own text field, one character at a time, stopping as soon as the word is complete. It never sends a keystroke: the player presses Enter to submit each word, and typing pauses while the duty prohibits input. An optional setting, off by default, sends the finished word itself after a randomised delay.",
     "RepoUrl": "https://github.com/priestkos/KeyboundAssist",
@@ -232,10 +232,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794443361,
-    "DownloadLinkInstall": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.15/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.15/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.15/latest.zip"
+    "LastUpdate": 1794462736,
+    "DownloadLinkInstall": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.16/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.16/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.16/latest.zip"
   },
   {
     "Author": "PriestKos",
