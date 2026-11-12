@@ -162,6 +162,33 @@ class UpdateTests(unittest.TestCase):
         self.assertIn("warning: New", err)
         self.assertIn("omitted", err)
 
+    def test_unchanged_output_not_rewritten(self):
+        self.add("Good")
+        first, _, _ = self.run_main(["Good"])
+        path = pathlib.Path("pluginmaster.json")
+        os.utime(path, (1, 1))
+        out = io.StringIO()
+        with contextlib.redirect_stdout(out):
+            upm.main()
+        self.assertEqual(out.getvalue(), "pluginmaster.json unchanged\n")
+        self.assertEqual(path.stat().st_mtime, 1)
+        self.assertEqual(json.loads(path.read_text(encoding="utf-8")), first)
+
+    def test_nested_json_in_zip_ignored(self):
+        self.add("Good", make_zip({"Good.json": json.dumps(manifest("Good")), "sub/x.json": "{}"}))
+        out, code, err = self.run_main(["Good"])
+        self.assertEqual((out, code), ([expected_entry("Good")], 0), err)
+
+    def test_utf8_bom_manifest(self):
+        self.add("Good", make_zip({"Good.json": "\ufeff" + json.dumps(manifest("Good"))}))
+        out, code, err = self.run_main(["Good"])
+        self.assertEqual((out, code), ([expected_entry("Good")], 0), err)
+
+    def test_repo_removed_from_repos_json_is_dropped(self):
+        self.add("Good")
+        out, code, _ = self.run_main(["Good"], [expected_entry("Gone"), expected_entry("Good", "0.9")])
+        self.assertEqual((out, code), ([expected_entry("Good")], 0))
+
 
 if __name__ == "__main__":
     unittest.main()
