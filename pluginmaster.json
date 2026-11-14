@@ -190,6 +190,28 @@
   },
   {
     "Author": "PriestKos",
+    "Name": "Inventory Search Bar",
+    "InternalName": "InventorySearchBar",
+    "AssemblyVersion": "1.9.8.1",
+    "Punchline": "Adds a search bar directly in the inventory window to filter items.",
+    "Description": "Supports different types of filters to be able to find items by name, type, supported job or level requirements.\n\nSupported Inventories:\n\t- Character Inventory\n\t- Chocobo Saddlebags\n\t- Retainer Inventory\n\t- Armoury",
+    "RepoUrl": "https://github.com/caitlyn-gg/InventorySearchBar",
+    "Tags": [
+      "UI"
+    ],
+    "DalamudApiLevel": 15,
+    "IconUrl": "https://raw.githubusercontent.com/priestkos/InventorySearchBar/main/InventorySearchBar/Media/icon.png",
+    "Changelog": "# 1.9.8.1 (PriestKos fork)\n\n- Fixed the crash on game exit: Dispose no longer touches inventory windows while the game is closing, and clearing highlights re-resolves the window instead of using a stale pointer.\n- Fixed off-by-one node-list bounds checks and added missing node null checks.\n- Builds against Dalamud 15.0.4 (CriticalCommonLib updated).",
+    "ApplicableVersion": "any",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": 1794635754,
+    "DownloadLinkInstall": "https://github.com/priestkos/InventorySearchBar/releases/download/v1.9.8.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/InventorySearchBar/releases/download/v1.9.8.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/InventorySearchBar/releases/download/v1.9.8.1/latest.zip"
+  },
+  {
+    "Author": "PriestKos",
     "Name": "KeyLock",
     "InternalName": "KeyLock",
     "AssemblyVersion": "0.1.0.2",
