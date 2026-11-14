@@ -24,3 +24,4 @@ In game open /xlsettings, Experimental, Custom Plugin Repositories, paste `https
 - [Wardrobe14](https://github.com/priestkos/Wardrobe14) — A cross-collection view of your Penumbra mods; bulk toggles and Glamourer looks to follow.
 - [FF14ModManagerBridge](https://github.com/priestkos/FF14ModManagerBridge) — Lets the FF14 Mod Manager Windows app see your character and apply Glamourer designs and Penumbra mods.
 - [Quill14](https://github.com/priestkos/Quill14) — Roleplay posts: smart splitting, markup, templates and paced sending to Say, Party, Tell or Reply.
+- [InventorySearchBar](https://github.com/priestkos/InventorySearchBar) — Adds a search bar directly in the inventory window to filter items; a fork of the official plugin that fixes its crash on game exit.
