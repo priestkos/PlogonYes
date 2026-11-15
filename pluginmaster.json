@@ -286,7 +286,7 @@
     "Author": "PriestKos",
     "Name": "Quill14",
     "InternalName": "Quill14",
-    "AssemblyVersion": "0.1.0.0",
+    "AssemblyVersion": "0.1.0.1",
     "Punchline": "Roleplay posts: smart splitting, markup, templates and paced sending to Say, Party, Tell or Reply.",
     "Description": "Write roleplay posts and send them to Say, Party, Tell or Reply. Long posts are split into chat-sized chunks at sentence ends, *action*, \"dialogue\" and (OOC) markers stay balanced across the split, and every chunk but the last gets a continuation marker. Chunks are sent only when you press Send, in order and at least 2 seconds apart, with Stop and a step mode. Reply locks onto the last person who sent you a tell. Reusable templates with {target}/{me} variables, fill-ins and random variety; post history, drafts per scene, a quick OOC line and a basic English spell check.",
     "RepoUrl": "https://github.com/priestkos/Quill14",
@@ -302,10 +302,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794493863,
-    "DownloadLinkInstall": "https://github.com/priestkos/Quill14/releases/download/v0.1.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/Quill14/releases/download/v0.1.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/Quill14/releases/download/v0.1.0.0/latest.zip"
+    "LastUpdate": 1794733029,
+    "DownloadLinkInstall": "https://github.com/priestkos/Quill14/releases/download/v0.1.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/Quill14/releases/download/v0.1.0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/Quill14/releases/download/v0.1.0.1/latest.zip"
   },
   {
     "Author": "PriestKos",
