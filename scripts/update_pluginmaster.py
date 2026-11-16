@@ -28,13 +28,27 @@ def download(url):
         return resp.read()
 
 
-def build_entry(repo):
+def download_count(repo):
+    """Sum latest.zip downloads over every release of repo (installs and updates, not unique users)."""
+    total, page = 0, 1
+    while True:
+        releases = api_get(f"https://api.github.com/repos/{OWNER}/{repo}/releases?per_page=100&page={page}")
+        total += sum(a.get("download_count", 0) for r in releases for a in r.get("assets", []) if a.get("name") == "latest.zip")
+        if len(releases) < 100:
+            return total
+        page += 1
+
+
+def build_entry(repo, old_entries=()):
     """Return the pluginmaster entry for repo; raise on any problem."""
     release = api_get(f"https://api.github.com/repos/{OWNER}/{repo}/releases/latest")
     asset = next((a for a in release.get("assets", []) if a.get("name") == "latest.zip"), None)
     if not asset:
         raise ValueError("release has no latest.zip asset")
     url = asset["browser_download_url"]
+    # Same release as last run: reuse it, since downloading the zip again would inflate its own download count.
+    if prev := next((e for e in old_entries if e.get("DownloadLinkInstall") == url), None):
+        return {**prev, "DownloadCount": download_count(repo)}
     with ZipFile(BytesIO(download(url))) as zf:
         roots = [n for n in zf.namelist() if "/" not in n and n.endswith(".json") and not n.endswith(".deps.json")]
         if len(roots) != 1:
@@ -51,6 +65,7 @@ def build_entry(repo):
         DownloadLinkInstall=url,
         DownloadLinkUpdate=url,
         DownloadLinkTesting=url,
+        DownloadCount=download_count(repo),
     )
     return entry
 
@@ -67,7 +82,7 @@ def main():
     entries, failed = [], []
     for repo in repos:
         try:
-            entries.append(build_entry(repo))
+            entries.append(build_entry(repo, old_entries))
         except Exception as err:  # one bad repo must not drop or block the others
             failed.append(repo)
             # RepoUrl can point off GitHub (HuntAlerts); the download link is always ours.

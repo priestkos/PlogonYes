@@ -18,8 +18,11 @@ spec.loader.exec_module(upm)
 PUBLISHED = "2026-10-01T12:00:00Z"
 
 
-def url_for(repo):
-    return f"https://github.com/priestkos/{repo}/releases/download/v1.0.0.0/latest.zip"
+COUNT = 7
+
+
+def url_for(repo, version="1.0.0.0"):
+    return f"https://github.com/priestkos/{repo}/releases/download/v{version}/latest.zip"
 
 
 def manifest(repo, **over):
@@ -46,7 +49,8 @@ def expected_entry(repo, version="1.0.0.0"):
     m = manifest(repo, AssemblyVersion=version)
     e = {k: m[k] for k in upm.MANIFEST_KEYS if k in m}
     e.update(ApplicableVersion="any", IsHide=False, IsTestingExclusive=False, LastUpdate=1790856000,
-             DownloadLinkInstall=url_for(repo), DownloadLinkUpdate=url_for(repo), DownloadLinkTesting=url_for(repo))
+             DownloadLinkInstall=url_for(repo, version), DownloadLinkUpdate=url_for(repo, version),
+             DownloadLinkTesting=url_for(repo, version), DownloadCount=COUNT)
     return e
 
 
@@ -59,7 +63,7 @@ class UpdateTests(unittest.TestCase):
         self.tmp = tempfile.TemporaryDirectory()
         self.cwd = os.getcwd()
         os.chdir(self.tmp.name)
-        self.releases, self.zips = {}, {}
+        self.releases, self.zips, self.lists = {}, {}, {}
         upm.api_get, upm.download = self.fake_api, self.fake_download
 
     def tearDown(self):
@@ -67,6 +71,10 @@ class UpdateTests(unittest.TestCase):
         self.tmp.cleanup()
 
     def fake_api(self, url):
+        if "/releases?" in url:  # the all-releases list used for DownloadCount
+            pages = self.lists.get(url.split("/")[-2]) or [[self.releases[url.split("/")[-2]]]]
+            page = int(url.rsplit("page=", 1)[1])
+            return pages[page - 1] if page <= len(pages) else []
         r = self.releases[url.split("/")[-3]]
         if isinstance(r, Exception):
             raise r
@@ -80,7 +88,7 @@ class UpdateTests(unittest.TestCase):
 
     def add(self, repo, zbytes=None, release=None):
         self.releases[repo] = release if release is not None else {
-            "published_at": PUBLISHED, "assets": [{"name": "latest.zip", "browser_download_url": url_for(repo)}]}
+            "published_at": PUBLISHED, "assets": [{"name": "latest.zip", "browser_download_url": url_for(repo), "download_count": COUNT}]}
         self.zips[url_for(repo)] = zbytes if zbytes is not None else good_zip(repo)
 
     def run_main(self, repos, previous=None):
@@ -183,6 +191,20 @@ class UpdateTests(unittest.TestCase):
         self.add("Good", make_zip({"Good.json": "\ufeff" + json.dumps(manifest("Good"))}))
         out, code, err = self.run_main(["Good"])
         self.assertEqual((out, code), ([expected_entry("Good")], 0), err)
+
+    def test_download_count_sums_latest_zip_across_pages(self):
+        self.add("Good")
+        rel = lambda n, name="latest.zip": {"assets": [{"name": name, "download_count": n}]}
+        self.lists["Good"] = [[rel(1)] * 99 + [rel(1000, "other.zip")], [rel(5), {"assets": []}]]
+        out, code, err = self.run_main(["Good"])
+        self.assertEqual((out[0]["DownloadCount"], code), (104, 0), err)
+
+    def test_unchanged_release_not_redownloaded_but_count_refreshed(self):
+        self.add("Good")
+        self.zips[url_for("Good")] = AssertionError("zip downloaded again")
+        prev = dict(expected_entry("Good"), DownloadCount=3, Punchline="from previous run")
+        out, code, err = self.run_main(["Good"], [prev])
+        self.assertEqual((out, code), ([dict(prev, DownloadCount=COUNT)], 0), err)
 
     def test_repo_removed_from_repos_json_is_dropped(self):
         self.add("Good")
