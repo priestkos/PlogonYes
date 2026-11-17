@@ -176,7 +176,7 @@
     "Author": "PriestKos",
     "Name": "KosHome",
     "InternalName": "KosHome",
-    "AssemblyVersion": "1.0.0.0",
+    "AssemblyVersion": "1.0.0.1",
     "Punchline": "One home for the PriestKos plugin tools.",
     "Description": "One home for the PriestKos plugin tools: Aetherpath, Calc14, FrontlineAdvisor, GateAlert, NameplateOffset, Quill14, VenueLedger, Wardrobe14 and WorldClock14 as apps you switch on and off from one window.",
     "RepoUrl": "https://github.com/priestkos/KosHome",
@@ -189,11 +189,11 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794893825,
-    "DownloadLinkInstall": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.0/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.0/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.0/latest.zip",
-    "DownloadCount": 0
+    "LastUpdate": 1794898271,
+    "DownloadLinkInstall": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.1/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.1/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.1/latest.zip",
+    "DownloadCount": 4
   },
   {
     "Author": "PriestKos",
@@ -219,6 +219,6 @@
     "DownloadLinkInstall": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.10/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.10/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.10/latest.zip",
-    "DownloadCount": 79
+    "DownloadCount": 80
   }
 ]
