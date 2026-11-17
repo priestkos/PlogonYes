@@ -8,6 +8,7 @@ This repository is the home for my Dalamud plugins for FFXIV.
 
 In game open /xlsettings, Experimental, Custom Plugin Repositories, paste `https://raw.githubusercontent.com/priestkos/PlogonYes/main/pluginmaster.json`, tick the box and Save.
 
+- [KosHome](https://github.com/priestkos/KosHome) — One home for the PriestKos plugin tools: Aetherpath, Calc14, FrontlineAdvisor, GateAlert, NameplateOffset, Quill14, VenueLedger, Wardrobe14 and WorldClock14 as apps in one tablet window.
 - [Babel14](https://github.com/priestkos/Babel14) — Two-way in-game chat translation for FFXIV, powered by any OpenAI-compatible LLM API.
 - [Blackjack14](https://github.com/priestkos/Blackjack14) — Player-run blackjack on /random or /dice: you pick the moves, it rolls, plays the dealer and scores.
 - [HuntAlerts](https://github.com/priestkos/HuntAlerts) — Notifies you when hunt trains are starting soon and when S ranks are found, with optional relay into chat.
