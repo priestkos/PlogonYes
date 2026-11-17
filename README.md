@@ -8,20 +8,11 @@ This repository is the home for my Dalamud plugins for FFXIV.
 
 In game open /xlsettings, Experimental, Custom Plugin Repositories, paste `https://raw.githubusercontent.com/priestkos/PlogonYes/main/pluginmaster.json`, tick the box and Save.
 
-- [Aetherpath](https://github.com/priestkos/Aetherpath) — Prices every way to get where you're going in FFXIV, and shows where your free transfer and favored destinations earn the most gil.
 - [Babel14](https://github.com/priestkos/Babel14) — Two-way in-game chat translation for FFXIV, powered by any OpenAI-compatible LLM API.
 - [Blackjack14](https://github.com/priestkos/Blackjack14) — Player-run blackjack on /random or /dice: you pick the moves, it rolls, plays the dealer and scores.
-- [Calc14](https://github.com/priestkos/Calc14) — A keypad calculator that opens over FFXIV, with a 100-entry history and inline expression evaluation from chat.
-- [FrontlineAdvisor](https://github.com/priestkos/FrontlineAdvisor) — Reads the live Frontline scoreboard and says who is winning, who to focus, who is about to matter — and when the lead changes.
-- [GateAlert](https://github.com/priestkos/GateAlert) — Shouts in your chat log when a GATE you watch opens in the Gold Saucer.
 - [HuntAlerts](https://github.com/priestkos/HuntAlerts) — Notifies you when hunt trains are starting soon and when S ranks are found, with optional relay into chat.
-- [NameplateOffset](https://github.com/priestkos/NameplateOffset) — Raises or lowers the overhead nameplate of a game object, scoped per object type.
-- [VenueLedger](https://github.com/priestkos/VenueLedger) — Keeps FFXIV venues in one ledger and reads their hours against your own clock.
-- [WorldClock14](https://github.com/priestkos/WorldClock14) — Converts a time into every timezone you care about, then paste it into chat.
 - [KeyLock](https://github.com/priestkos/KeyLock) — Moves movement off WASD and jump off Space on demand, and puts them back.
 - [KeyboundAssist](https://github.com/priestkos/KeyboundAssist) — Fills in the enemy prompts of the Keybound Brawler duty; you press Enter to submit each word.
 - [StripDeathroll14](https://github.com/priestkos/StripDeathroll14) — Strip Deathroll host helper: turn order, roll calls, wrong-roll alerts, lives and round history.
-- [Wardrobe14](https://github.com/priestkos/Wardrobe14) — A cross-collection view of your Penumbra mods; bulk toggles and Glamourer looks to follow.
 - [FF14ModManagerBridge](https://github.com/priestkos/FF14ModManagerBridge) — Lets the FF14 Mod Manager Windows app see your character and apply Glamourer designs and Penumbra mods.
-- [Quill14](https://github.com/priestkos/Quill14) — Roleplay posts: smart splitting, markup, templates and paced sending to Say, Party, Tell or Reply.
 - [InventorySearchBar](https://github.com/priestkos/InventorySearchBar) — Adds a search bar directly in the inventory window to filter items; a fork of the official plugin that fixes its crash on game exit.
