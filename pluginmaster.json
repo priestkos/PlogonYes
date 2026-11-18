@@ -21,7 +21,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.11/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.11/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.11/latest.zip",
-    "DownloadCount": 126
+    "DownloadCount": 127
   },
   {
     "Author": "PriestKos",
@@ -167,7 +167,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.3/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.3/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.3/latest.zip",
-    "DownloadCount": 13
+    "DownloadCount": 15
   },
   {
     "Author": "PriestKos",
@@ -193,6 +193,6 @@
     "DownloadLinkInstall": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.11/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.11/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.11/latest.zip",
-    "DownloadCount": 83
+    "DownloadCount": 84
   }
 ]
