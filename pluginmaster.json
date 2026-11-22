@@ -52,7 +52,7 @@
     "Author": "PriestKos",
     "Name": "FF14 Mod Manager Bridge",
     "InternalName": "FF14ModManagerBridge",
-    "AssemblyVersion": "1.0.0.2",
+    "AssemblyVersion": "1.0.0.3",
     "Punchline": "Lets the FF14 Mod Manager desktop app see your character and apply designs and mods.",
     "Description": "Companion to the FF14 Mod Manager Windows app. Answers over a local, current-user-only named pipe: who you are, which Penumbra collection is on you, and applies Glamourer designs or toggles Penumbra mods on request.",
     "RepoUrl": "https://github.com/priestkos/FF14ModManagerBridge",
@@ -67,10 +67,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794488307,
-    "DownloadLinkInstall": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.2/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.2/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.2/latest.zip",
+    "LastUpdate": 1795347971,
+    "DownloadLinkInstall": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.3/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.3/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.3/latest.zip",
     "DownloadCount": 50
   },
   {
@@ -150,7 +150,7 @@
     "Author": "PriestKos",
     "Name": "KosHome",
     "InternalName": "KosHome",
-    "AssemblyVersion": "1.0.0.3",
+    "AssemblyVersion": "1.0.0.4",
     "Punchline": "One home for the PriestKos plugin tools.",
     "Description": "One home for the PriestKos plugin tools: Aetherpath, Calc14, FrontlineAdvisor, GateAlert, KeyLock, NameplateOffset, Quill14, VenueLedger, Wardrobe14 and WorldClock14 as apps you switch on and off from one window.",
     "RepoUrl": "https://github.com/priestkos/KosHome",
@@ -163,10 +163,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1794924265,
-    "DownloadLinkInstall": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.3/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.3/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.3/latest.zip",
+    "LastUpdate": 1795348008,
+    "DownloadLinkInstall": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.4/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.4/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.4/latest.zip",
     "DownloadCount": 15
   },
   {
@@ -193,6 +193,6 @@
     "DownloadLinkInstall": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.12/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.12/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.12/latest.zip",
-    "DownloadCount": 84
+    "DownloadCount": 86
   }
 ]
