@@ -21,7 +21,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.11/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.11/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/Babel14/releases/download/v0.1.0.11/latest.zip",
-    "DownloadCount": 127
+    "DownloadCount": 128
   },
   {
     "Author": "PriestKos",
@@ -46,7 +46,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/Blackjack14/releases/download/v0.1.0.3/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/Blackjack14/releases/download/v0.1.0.3/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/Blackjack14/releases/download/v0.1.0.3/latest.zip",
-    "DownloadCount": 70
+    "DownloadCount": 71
   },
   {
     "Author": "PriestKos",
@@ -71,7 +71,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.3/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.3/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/FF14ModManagerBridge/releases/download/v1.0.0.3/latest.zip",
-    "DownloadCount": 52
+    "DownloadCount": 54
   },
   {
     "Author": "PriestKos",
@@ -96,7 +96,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.15/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.15/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/HuntAlerts/releases/download/v1.4.1.15/latest.zip",
-    "DownloadCount": 107
+    "DownloadCount": 108
   },
   {
     "Author": "PriestKos",
@@ -119,7 +119,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/InventorySearchBar/releases/download/v1.9.8.1/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/InventorySearchBar/releases/download/v1.9.8.1/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/InventorySearchBar/releases/download/v1.9.8.1/latest.zip",
-    "DownloadCount": 20
+    "DownloadCount": 21
   },
   {
     "Author": "PriestKos",
@@ -144,7 +144,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.17/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.17/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/KeyboundAssist/releases/download/v0.1.0.17/latest.zip",
-    "DownloadCount": 161
+    "DownloadCount": 163
   },
   {
     "Author": "PriestKos",
@@ -167,7 +167,7 @@
     "DownloadLinkInstall": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.4/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.4/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/KosHome/releases/download/v1.0.0.4/latest.zip",
-    "DownloadCount": 18
+    "DownloadCount": 21
   },
   {
     "Author": "PriestKos",
@@ -193,6 +193,6 @@
     "DownloadLinkInstall": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.12/latest.zip",
     "DownloadLinkUpdate": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.12/latest.zip",
     "DownloadLinkTesting": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.12/latest.zip",
-    "DownloadCount": 89
+    "DownloadCount": 91
   }
 ]
