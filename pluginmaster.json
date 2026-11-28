@@ -173,9 +173,9 @@
     "Author": "PriestKos",
     "Name": "StripDeathroll14",
     "InternalName": "StripDeathroll14",
-    "AssemblyVersion": "0.1.0.14",
+    "AssemblyVersion": "0.1.0.15",
     "Punchline": "Strip Deathroll host helper: turn order, roll calls, wrong-roll alerts, lives and round history.",
-    "Description": "Hosts Strip Deathroll at a venue. Choose Private (say) or Public (party/alliance), build the player list from your party or by name, and it reads everyone's /random or /dice from chat: the highest opening roll starts round 1, later rounds resume with the player after the winner, the turn goes down your list, each player is called to roll the previous number, a 0, 1, 69 or 666 wins the round, and the winner picks who loses which piece (top, bottom or shoes). It alerts on a wrong number (and calls the player once to reroll) or an out-of-turn roll, keeps every roll of every round and every game (Game 1, Game 2...) with a running tally and CSV export, lets you fix or add a missed roll in the round in play, can remind a player who has not rolled (once in chat, then in your Echo), has a debug mode with dummy players, and posts your rules and ad texts. Lines are posted only when you press Post unless you turn on auto-post or reminders, one at a time, a random 2 to 5 seconds apart within limits you pick.",
+    "Description": "Hosts Strip Deathroll at a venue. Choose Private (say) or Public (party/alliance), build the player list from your party or by name, and it reads everyone's /random or /dice from chat: the highest opening roll starts round 1, later rounds resume with the player after the winner, the turn goes down your list, each player is called to roll the previous number, a 0, 1, 69 or 666 wins the round, and the winner picks who loses which piece (top, bottom or shoes). It alerts on a wrong number (and calls the player once to reroll) or an out-of-turn roll, keeps every roll of every round and every game (Game 1, Game 2...) with a running tally and CSV export, lets you fix or add a missed roll in the round in play, can remind a player who has not rolled (once in chat, then in your Echo), has a debug mode with dummy players, and posts your rules and ad texts. Lines are posted only when you press Post unless you turn on auto-post (for the kinds of line you choose) or reminders, one at a time, a random 2 to 4 seconds apart by default, within limits you pick.",
     "RepoUrl": "https://github.com/priestkos/StripDeathroll14",
     "Tags": [
       "deathroll",
@@ -189,10 +189,10 @@
     "ApplicableVersion": "any",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdate": 1795855625,
-    "DownloadLinkInstall": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.14/latest.zip",
-    "DownloadLinkUpdate": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.14/latest.zip",
-    "DownloadLinkTesting": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.14/latest.zip",
-    "DownloadCount": 100
+    "LastUpdate": 1795859335,
+    "DownloadLinkInstall": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.15/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.15/latest.zip",
+    "DownloadLinkTesting": "https://github.com/priestkos/StripDeathroll14/releases/download/v0.1.0.15/latest.zip",
+    "DownloadCount": 104
   }
 ]
